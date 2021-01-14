@@ -1,9 +1,13 @@
-### Instruções
+Instruções
 
-# Executar o install dos módulos em ./frontend e ./backend (exemplo: $npm install)
+Executar o install dos módulos em ./frontend e ./backend (exemplo: $npm install)
 
-# Iniciar o backend e o frontend com $yarn start no ./frontend e ./backend
+Criar um arquivo .env em ./backend com:
+API_KEY = {Sua Key}
+QT_VIDEOS = {Quantidade de videos a serem consultadas}
 
-# Os servidores estão configurados para rodar em localhost:3333 e localhost:3000
+Iniciar o backend e o frontend com $yarn start no ./frontend e ./backend
 
-# Um caso de teste está disponível em ./backend executando $yarn test
+Os servidores estão configurados para rodar em localhost:3333 e localhost:3000
+
+Um caso de teste está disponível em ./backend executando $yarn test
